@@ -1,0 +1,8 @@
+#Accept a sequence of five single digit numbers separated by commas as #input. Print the product of all five numbers.
+n=input()
+a=int(n[0])
+b=int(n[2])
+c=int(n[4])
+d=int(n[6])
+e=int(n[8])
+print(a*b*c*d*e)
