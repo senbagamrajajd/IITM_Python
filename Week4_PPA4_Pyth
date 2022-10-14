@@ -1,0 +1,9 @@
+L = input().split(',')
+max=0
+m=''
+for i in range(len(L)):
+    if len(L[i])>=max:
+        max=len(L[i])
+        m=''
+        m+=L[i]
+print(m)
