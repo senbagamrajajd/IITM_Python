@@ -1,0 +1,7 @@
+s = input()
+small = s
+while (s!= 'abcdefghijklmnopqrstuvwxyz'):
+    if(len(s))<len(small):
+        small = s
+    s = input()
+print(small)
