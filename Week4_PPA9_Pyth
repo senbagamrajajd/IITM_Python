@@ -1,0 +1,15 @@
+m=[]
+n=int(input())
+for i in range(n):
+    f=input().split(' ')
+    for j in range(n):
+        f[j]=int(f[j])
+    m.append(f)
+s=int(input())
+for i in range(n):
+    for j in range(n):
+        m[i][j]=m[i][j]*s
+        if j<(n-1):
+            print(m[i][j],end=' ')
+        else:
+            print(m[i][j])
